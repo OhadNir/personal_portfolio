@@ -1,0 +1,22 @@
+/*navigation bar*/
+#nav_line {
+  background-color: #878787;
+  overflow: hidden;
+}
+.nav_right {
+  float:right;
+  text-align:right;
+}
+.nav_page {
+  font-size: 30px;
+  background-color: #878787;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  padding: 15px;
+}
+.nav_page:hover {
+  background-color: #C4C4C4;
+}
