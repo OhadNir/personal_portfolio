@@ -1,15 +1,11 @@
-
 /*header bar*/
-
 #header {
-  /*
-  background-color: #414141;
-  */
-  background-image: url("backgrounds/header_background.png");
-  background-position: center;
-  background-size: contain;
+  background-color: #1A1A1A;
+  background-image: url("../images/backgrounds/header_background.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
   min-height: 100%;
-
 }
 #header_text {
   font-size: 50px;
@@ -19,10 +15,14 @@
   line-height: 50px;
   padding-bottom: 30px;
 }
-
 #self_port {
   padding: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*body section*/
+#body_info {
+  background-color: #3DDEB8;
 }
