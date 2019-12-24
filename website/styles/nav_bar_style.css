@@ -8,7 +8,8 @@
   text-align:right;
 }
 .nav_page {
-  font-size: 30px;
+  font-size: 25px;
+  font-family: codec-bold;
   background-color: #878787;
   float: left;
   width: auto;
@@ -16,7 +17,10 @@
   display: block;
   outline: 0;
   padding: 15px;
+  color: white;
 }
 .nav_page:hover {
   background-color: #C4C4C4;
+  color: white;
+  text-decoration: none;
 }
