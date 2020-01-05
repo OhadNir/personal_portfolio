@@ -12,3 +12,7 @@
   src: url(Codec-Cold-Regular-trial.ttf);
   font-family: codec-regular;
 }
+@font-face {
+  src: url(Codec-Cold-ExtraBold-trial.ttf);
+  font-family: codec-extra-bold;
+}

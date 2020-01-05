@@ -1,7 +1,13 @@
 /*navigation bar*/
 #nav_line {
-  background-color: #878787;
+  background-color: #1a1a1a;
   overflow: hidden;
+  z-index:1;
+}
+#icon_nav {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: codec-extra-bold;
 }
 .nav_right {
   float:right;
@@ -10,7 +16,7 @@
 .nav_page {
   font-size: 25px;
   font-family: codec-bold;
-  background-color: #878787;
+  background-color: #1a1a1a;
   float: left;
   width: auto;
   border: none;
@@ -20,7 +26,7 @@
   color: white;
 }
 .nav_page:hover {
-  background-color: #C4C4C4;
-  color: white;
+  font-family: codec-bold;
+  color: #3DDEB8;
   text-decoration: none;
 }
