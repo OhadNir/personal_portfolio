@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <div id="nav_line">
-    <a>Ohad Nir</a>
-    <a href="index.html">About</a>
-    <a href="projects.html">Projects</a>
-  </div>
-  <body>
-    <h1>Projects Page</h1>
+  <head>
+    <link rel="stylesheet" href="styles\fonts\font.css">
+    <link rel="stylesheet" href="styles\icon_style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel= "shortcut icon" type="image/png" href="icons\shortcut_icon_white.png">
+    <link rel="stylesheet" href="styles/navbar_footer_style.css">
+    <link rel="stylesheet" href="styles/scrollbar_styling.css">
+  </head>
+  <body style="min-width: 700px;" class="col-md-12 col-sm-12">
+    <link rel="stylesheet" href="styles/project_page_style.css">
+    <div class="row" id="nav_line" style="position: static;">
+      <a class="nav_page" id="icon_nav" href='index.html'><img src="icons\shortcut_icon_white.png" alt="icon" width="35px" height="35px"></a>
+      <div class="nav_right">
+        <a class="nav_page" href ='index.html'>About</a>
+        <a class="nav_page" href ='projects.html'>Projects</a>
+      </div>
+    </div>
+    <div id="body" class="row">
+      <h1 id="body_title">Featured Projects:</h1>
+      <div id="body_content" class="row col-md-12 col-sm-12">
+        <a href="https://github.com/OhadNir/personal_portfolio" target="_blank" id="featured_project_card" class="col-md-12 col-sm-12">
+          <div class="col-md-2 col-sm-2">
+            <img id="project_image" src="images/image_place_holder.jpg" alt="Project Image" width="150px" height="150px">
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div class="col md-2">
+              <h1 class="project_title">Title:</h1>
+              <p class="project_text">Portfolio Website</p>
+            </div>
+            <div class="col md-2">
+              <h1 class="project_title">Description:</h1>
+              <p class="project_text">text...</p>
+            </div>
+            <div class="col md-2">
+              <h1 class="project_title">Langauges:</h1>
+              <p class="project_text">HTML CSS JavaScript</p>
+            </div>
+          </div>
+        </a>
+        <div id="message" class="col-md-12 col-sm-12">
+          <h1>More Projects Coming Soon...</h1>
+          <h2>Check Out Github for Updates on Projects</h2>
+          <a href="https://github.com/OhadNir" target="_blank" title="GitHub"><img class="material-icons" src="icons/GitHub-Mark-120px-plus.png" width="34" height="34"></a>
+        </div>
+
+        <!--
+        <a href="https://github.com/OhadNir" target="_blank" id="featured_project_card" class="col-md-12 col-sm-12">
+          <div class="col-md-2 col-sm-2">
+            <img id="project_image" src="images/image_place_holder.jpg" alt="Project Image" width="150px" height="150px">
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div id="project_description">
+              <h1>Description:</h1>
+            </div>
+            <div id="project_langauges">
+              <h1>Langauges:</h1>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/OhadNir" target="_blank" id="featured_project_card" class="col-md-12 col-sm-12">
+          <div class="col-md-2 col-sm-2">
+            <img id="project_image" src="images/image_place_holder.jpg" alt="Project Image" width="150px" height="150px">
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div id="project_description">
+              <h1>Description:</h1>
+            </div>
+            <div id="project_langauges">
+              <h1>Langauges:</h1>
+            </div>
+          </div>
+        </a>
+      -->
+      </div>
+    </div>
+    <div id="footer" class="row">
+      <a href='index.html'><img src="icons\shortcut_icon_white.png" alt="icon" width="35px" height="35px"></a>
+    </div>
   </body>
 </html>

@@ -2,11 +2,8 @@
 #nav_line {
   background-color: #1a1a1a;
   overflow: hidden;
-  z-index:1;
-  padding-right: 15px;
   padding-left: 15px;
-  position: fixed;
-  width:100%
+  padding-right: 15px;
 }
 #icon_nav {
   font-size: 25px;
@@ -33,4 +30,10 @@
   font-family: codec-bold;
   color: #3DDEB8;
   text-decoration: none;
+}
+/*footer*/
+#footer {
+  background-color: #1a1a1a;
+  padding: 5px;
+  text-align: center;
 }
