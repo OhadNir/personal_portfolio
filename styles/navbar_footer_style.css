@@ -4,11 +4,9 @@
   overflow: hidden;
   padding-left: 15px;
   padding-right: 15px;
-}
-#icon_nav {
-  font-size: 25px;
-  letter-spacing: 10px;
-  font-family: codec-extra-bold;
+  width:100%;
+  position: fixed;
+  z-index:1;
 }
 .nav_right {
   float:right;

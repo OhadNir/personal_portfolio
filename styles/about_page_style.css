@@ -6,21 +6,24 @@
   background-position: center bottom;
   background-size: cover;
   min-height: 100%;
-  padding-top:50px;
+  padding-top:70px;
+  margin-left: 0px;
 }
 #header_text {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   font-family: codec-regular;
   text-align: center;
-  line-height: 50px;
   padding-bottom: 50px;
+  line-height: 30px;
 }
 #self_port {
-  padding:20px;
+  padding:0px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width:50%;
+  height: auto;
 }
 
 /*body section*/
@@ -30,8 +33,9 @@
   padding-bottom: 10px;
 }
 #body_icons {
-  letter-spacing: 50px;
+  letter-spacing: 30px;
   text-align: center;
+  margin-left:15px;
 }
 #body_title {
   text-align: center;
@@ -44,8 +48,173 @@
   color: #1a1a1a;
   font-family: arial;
   width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 25px;
+  padding-right: 10px;
   text-align: justify;
   text-justify: inter-word;
+}
+@media only screen and (min-width: 768px) {
+  #header {
+    background-color: #1A1A1A;
+    background-image: url("../images/backgrounds/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100%;
+    padding-top:65px;
+  }
+  #header_text {
+    font-size: 50px;
+    color: white;
+    font-family: codec-regular;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 50px;
+  }
+  #self_port {
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: auto;
+  }
+
+  /*body section*/
+  #body_info {
+    background-color: #3DDEB8;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  #body_icons {
+    letter-spacing: 30px;
+    text-align: center;
+    margin-left:15px;
+  }
+  #body_title {
+    text-align: center;
+    font-size: 40px;
+    color: #1a1a1a;
+    font-family: codec-bold;
+  }
+  #body_text {
+    font-size: 25px;
+    color: #1a1a1a;
+    font-family: arial;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  #header {
+    background-color: #1A1A1A;
+    background-image: url("../images/backgrounds/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100%;
+    padding-top:60px;
+  }
+  #header_text {
+    font-size: 50px;
+    color: white;
+    font-family: codec-regular;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 50px;
+  }
+  #self_port {
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+    height: auto;
+  }
+
+  /*body section*/
+  #body_info {
+    background-color: #3DDEB8;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  #body_icons {
+    letter-spacing: 30px;
+    text-align: center;
+    margin-left:15px;
+  }
+  #body_title {
+    text-align: center;
+    font-size: 40px;
+    color: #1a1a1a;
+    font-family: codec-bold;
+  }
+  #body_text {
+    font-size: 25px;
+    color: #1a1a1a;
+    font-family: arial;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  #header {
+    background-color: #1A1A1A;
+    background-image: url("../images/backgrounds/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100%;
+    padding-top:50px;
+  }
+  #header_text {
+    font-size: 50px;
+    color: white;
+    font-family: codec-regular;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 50px;
+  }
+  #self_port {
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:21%;
+    height: auto;
+  }
+
+  /*body section*/
+  #body_info {
+    background-color: #3DDEB8;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  #body_icons {
+    letter-spacing: 30px;
+    text-align: center;
+    margin-left:15px;
+  }
+  #body_title {
+    text-align: center;
+    font-size: 40px;
+    color: #1a1a1a;
+    font-family: codec-bold;
+  }
+  #body_text {
+    font-size: 25px;
+    color: #1a1a1a;
+    font-family: arial;
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 65px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }
