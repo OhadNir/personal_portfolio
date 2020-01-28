@@ -35,7 +35,8 @@
 #body_icons {
   letter-spacing: 30px;
   text-align: center;
-  margin-left:15px;
+  margin-left:22px;
+  font-size: 11px;
 }
 #body_title {
   text-align: center;
@@ -89,7 +90,8 @@
   #body_icons {
     letter-spacing: 30px;
     text-align: center;
-    margin-left:15px;
+    margin-left:22px;
+    font-size: 15px;
   }
   #body_title {
     text-align: center;
