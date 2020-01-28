@@ -40,12 +40,12 @@
 }
 #body_title {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: #1a1a1a;
   font-family: codec-bold;
 }
 #body_text {
-  font-size: 25px;
+  font-size: 18px;
   color: #1a1a1a;
   font-family: arial;
   width: 100%;

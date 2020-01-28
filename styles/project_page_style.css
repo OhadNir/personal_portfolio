@@ -54,6 +54,12 @@
   display: inline;
   font-size: 25px;
 }
+#pro_title {
+  display: inline;
+  color:#c2c2c2;
+  font-size:20px;
+  font-family: arial;
+}
 .project_text {
   display: inline;
   font-size:20px;
@@ -116,6 +122,12 @@
     display: inline;
     font-size: 25px;
   }
+  #pro_title {
+    display: inline;
+    color:#c2c2c2;
+    font-size:20px;
+    font-family: arial;
+  }
   .project_text {
     display: inline;
     font-size:20px;
@@ -154,7 +166,7 @@
     transition: transform 1s;
   }
   #featured_project_card:hover {
-    transform: translate(0px, 0px);
+    transform: translate(55px, 0px);
   }
   #message {
     text-align: center;
@@ -179,6 +191,12 @@
     display: inline;
     font-size: 25px;
   }
+  #pro_title {
+    display: inline;
+    color:#c2c2c2;
+    font-size:20px;
+    font-family: arial;
+  }
   .project_text {
     display: inline;
     font-size:20px;
@@ -190,7 +208,7 @@
     padding-top:85px;
     background-color: #3DDEB8;
     padding-left:50px;
-    padding-bottom: 348px;
+    padding-bottom: 350px;
   }
   #body_title {
     display:inline;
@@ -217,7 +235,7 @@
     transition: transform 1s;
   }
   #featured_project_card:hover {
-    transform: translate(0px, 0px);
+    transform: translate(55px, 0px);
   }
   #message {
     text-align: center;
@@ -234,15 +252,22 @@
     margin-left: -40px;
   }
   #logo {
-    font-size:18px;
+    font-size:17px;
     margin-left: -45px;
   }
   .project_title {
     display: inline;
     font-size: 30px;
   }
+  #pro_title {
+    display: inline;
+    color:#c2c2c2;
+    font-size:25px;
+    font-family: arial;
+  }
   .project_text {
     display: inline;
+    color:white;
     font-size:25px;
     font-family: arial;
   }
