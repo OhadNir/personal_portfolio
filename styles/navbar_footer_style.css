@@ -12,6 +12,21 @@
   float:right;
   text-align:right;
 }
+.nav_right #links {
+  display:none;
+}
+#menu {
+  display:block;
+  width:100%;
+  color:white;
+}
+#menu:hover {
+  color: #3DDEB8;
+}
+#nav_section {
+  display:block;
+  float: none;
+}
 .nav_page {
   font-size: 25px;
   font-family: codec-bold;
@@ -34,4 +49,53 @@
   background-color: #1a1a1a;
   padding: 5px;
   text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  #nav_line {
+    background-color: #1a1a1a;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:100%;
+    position: fixed;
+    z-index:1;
+  }
+  .nav_right {
+    float:right;
+    text-align:right;
+  }
+  .nav_right #links {
+    display:block !important;
+  }
+  #nav_section {
+    display:block;
+    float: left;
+  }
+  #menu {
+    display:none;
+    width:0%;
+  }
+  .nav_page {
+    font-size: 25px;
+    font-family: codec-bold;
+    background-color: #1a1a1a;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    padding: 15px;
+    color: white;
+  }
+  .nav_page:hover {
+    font-family: codec-bold;
+    color: #3DDEB8;
+    text-decoration: none;
+  }
+  /*footer*/
+  #footer {
+    background-color: #1a1a1a;
+    padding: 5px;
+    text-align: center;
+  }
 }

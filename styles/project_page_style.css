@@ -60,6 +60,10 @@
   font-size:20px;
   font-family: arial;
 }
+#pro_title:hover {
+  color:white;
+  text-decoration: underline;
+}
 .project_text {
   display: inline;
   font-size:20px;
@@ -127,6 +131,10 @@
     color:#c2c2c2;
     font-size:20px;
     font-family: arial;
+  }
+  #pro_title:hover {
+    color:white;
+    text-decoration: underline;
   }
   .project_text {
     display: inline;
@@ -197,6 +205,10 @@
     font-size:20px;
     font-family: arial;
   }
+  #pro_title:hover {
+    color:white;
+    text-decoration: underline;
+  }
   .project_text {
     display: inline;
     font-size:20px;
@@ -264,6 +276,10 @@
     color:#c2c2c2;
     font-size:25px;
     font-family: arial;
+  }
+  #pro_title:hover {
+    color:white;
+    text-decoration: underline;
   }
   .project_text {
     display: inline;

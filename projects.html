@@ -12,13 +12,17 @@
     <link rel="stylesheet" href="styles/navbar_footer_style.css">
     <link rel="stylesheet" href="styles/scrollbar_styling.css">
     <link rel="stylesheet" href="styles/project_page_style.css">
+    <script type="text/javascript" src="scripts/navbar_hamburger_menu.js"></script>
   </head>
   <body>
     <div id="nav_line">
-      <a class="nav_page" id="icon_nav" href='https://nirohad.com/'><img src="icons\shortcut_icon_white.png" alt="icon" width="35px" height="35px"></a>
+      <a class="nav_page" href='https://nirohad.com/'><img src="icons/shortcut_icon_white.png" alt="icon" width="35px" height="35px"></a>
       <div class="nav_right">
-        <a class="nav_page" href ='https://nirohad.com/'>About</a>
-        <a class="nav_page" href ='projects'>Projects</a>
+        <a id="menu" class="nav_page" style="font-size: 10px;" href="javascript:void(0);" onclick="togglemenu()"><i class="fas fa-bars fa-3x"></i></a>
+        <div id="links">
+          <a id="nav_section" class="nav_page" href ='https://nirohad.com/'>About</a>
+          <a id="nav_section" class="nav_page" href ='projects'>Projects</a>
+        </div>
       </div>
     </div>
     <div id="body" class="row" style="margin-right:0px;">
