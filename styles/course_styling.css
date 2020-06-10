@@ -1,0 +1,101 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#body {
+  padding-top: 85px;
+  background-color: #3DDEB8;
+  height:10000px;
+}
+#title {
+  padding-left: 50px;
+  display:inline;
+  font-size: 40px;
+  color: #1a1a1a;
+  font-family: codec-bold;
+}
+.topic {
+    padding-left: 50px;
+    color: #1a1a1a;
+    font-family: codec-bold;
+}
+.course_td {
+  width:175px;
+}
+.number_id {
+  width:110px;
+}
+.course_table {
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+}
+#citation {
+  color: #1a1a1a;
+  float: right;
+  font-size: 12px;
+  padding:20px;
+}
+table, th, td {
+  border: 1px solid white;
+  color:white;
+  background-color: #1a1a1a;
+  font-size: 15px;
+  padding:10px;
+}
+
+@media only screen and (min-width: 768px) {
+  html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+  }
+  #body {
+    padding-top: 85px;
+    background-color: #3DDEB8;
+    height:1700px;
+  }
+  #title {
+    padding-left: 50px;
+    display:inline;
+    font-size: 40px;
+    color: #1a1a1a;
+    font-family: codec-bold;
+  }
+  .topic {
+      padding-left: 50px;
+      color: #1a1a1a;
+      font-family: codec-bold;
+  }
+  .course_td {
+    width:300px;
+  }
+  .number_id {
+    width:125px;
+  }
+  .course_table {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+  }
+  #citation {
+    color: #1a1a1a;
+    float: right;
+    font-size: 12px;
+    padding:20px;
+  }
+  table, th, td {
+    border: 1px solid white;
+    color:white;
+    background-color: #1a1a1a;
+    font-size: 15px;
+    padding:10px;
+  }
+}

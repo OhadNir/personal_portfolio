@@ -19,7 +19,6 @@
   display:block;
   width:100%;
   color:white;
-  font-size: 10px;
 }
 #menu:hover {
   color: #3DDEB8;
@@ -51,7 +50,7 @@
   padding: 5px;
   text-align: center;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
   #nav_line {
     background-color: #1a1a1a;
     overflow: hidden;

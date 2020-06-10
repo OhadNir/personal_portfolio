@@ -1,0 +1,44 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#body {
+  padding-top: 85px;
+  background-color: #3DDEB8;
+  height: 95.4%;
+}
+#research_card {
+  text-align: center;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 1s;
+}
+#research_card:hover {
+  transform: translate(5px, 5px);
+}
+#research_main {
+  text-align: center;
+  font-size: 30px;
+}
+#research_second {
+  text-align: center;
+  font-size: 28px;
+}
+#research_text {
+  text-align: justify;
+  font-size: 20px;
+}
+#title {
+  padding-left: 50px;
+  display:inline;
+  font-size: 40px;
+  color: #1a1a1a;
+  font-family: codec-bold;
+}

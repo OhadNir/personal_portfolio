@@ -1,0 +1,18 @@
+@font-face {
+  src: url(Codec-Cold-Bold-trial.ttf);
+  font-family: codec-bold;
+}
+
+@font-face {
+  src: url(Codec-Cold-Light-trial.ttf);
+  font-family: codec-light;
+}
+
+@font-face {
+  src: url(Codec-Cold-Regular-trial.ttf);
+  font-family: codec-regular;
+}
+@font-face {
+  src: url(Codec-Cold-ExtraBold-trial.ttf);
+  font-family: codec-extra-bold;
+}
